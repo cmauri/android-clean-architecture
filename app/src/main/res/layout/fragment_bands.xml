@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor" >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bandsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="64dp"
+        android:layout_margin="4dp" />
+
+</RelativeLayout>

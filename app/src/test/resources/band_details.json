@@ -1,0 +1,24 @@
+{
+  "id": "1",
+  "name": "Band Name",
+  "genre": "Genre",
+  "description": "The description",
+  "foundation_year": 2020,
+  "picture": "",
+  "albums": [
+    {
+      "title": "Album 1",
+      "year": 2020,
+      "month": 1,
+      "lineUp": "Singer Name, Guitarist Name",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Loves_Monuments_Logo_notext.svg/70px-Wiki_Loves_Monuments_Logo_notext.svg.png"
+    },
+    {
+      "title": "Album 2",
+      "year": 2020,
+      "month": 12,
+      "lineUp": "Singer Name 2, Guitarist Name 2",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Wiki_Loves_Monuments_Logo_notext.svg/70px-Wiki_Loves_Monuments_Logo_notext.svg.png"
+    }
+  ]
+}

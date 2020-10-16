@@ -1,0 +1,79 @@
+<resources>
+    <!-- Base application theme. -->
+   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <item name="android:immersive">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="BaseToolbarStyle">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:theme">@style/BaseToolbarTheme</item>
+        <item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
+    </style>
+
+    <style name="BaseToolbarTheme">
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="CustomTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListPicture">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="ListTitle">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="ListDetails">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingRight">28dp</item>
+        <item name="android:paddingLeft">28dp</item>
+    </style>
+
+    <style name="BandPicture" parent="ListPicture" />
+    <style name="AlbumPicture" parent="ListPicture" />
+
+    <style name="BandListName" parent="ListTitle" />
+    <style name="AlbumListName" parent="ListTitle" />
+
+    <style name="AlbumDetailsText" parent="ListDetails" />
+
+    <style name="BandDetailsTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="BandDetailsText" parent="BandDetailsTitle">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:freezesText">true</item>
+    </style>
+
+</resources>

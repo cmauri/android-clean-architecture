@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Clean Architecture Rocks</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="login_screen_title">Login</string>
+    <string name="login_screen_username_label">Username</string>
+    <string name="login_screen_password_label">Password</string>
+    <string name="login_screen_login_button">Login</string>
+    <string name="failure_network_connection">No network connection</string>
+    <string name="failure_server_error">Server error</string>
+    <string name="failure_user_not_found">User not found</string>
+    <string name="failure_unknown_error">Unknown error: %1$s</string>
+    <string name="failure_invalid_login">Invalid login</string>
+    <string name="band_details_description">Description</string>
+    <string name="movie_details_foundation_year">Foundation year</string>
+    <string name="band_details_genre">Genre</string>
+    <string name="band_details_albums">Albums</string>
+    <string name="failure_youtube_not_installed">Cannot open YouTube. It\'s not installed.</string>
+</resources>
